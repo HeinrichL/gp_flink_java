@@ -1,15 +1,11 @@
 package degree_of_separation;
 
 import org.apache.flink.api.common.functions.MapFunction;
-import org.apache.flink.api.common.functions.ReduceFunction;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
-import org.apache.flink.api.java.functions.KeySelector;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.graph.Graph;
 import org.apache.flink.graph.Vertex;
-import org.apache.flink.graph.generator.GraphGenerator;
-import org.apache.flink.graph.generator.GraphGeneratorUtils;
 import org.apache.flink.graph.generator.RMatGraph;
 import org.apache.flink.graph.generator.random.*;
 import org.apache.flink.types.LongValue;
